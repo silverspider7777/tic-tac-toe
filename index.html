@@ -1,0 +1,59 @@
+<html lang="en"></html>
+  <head> 
+
+    <link href="tic tac toe.css"rel="stylesheet"/>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main class="background">
+      <section class="title">
+        <h1>Tic Tac Toe</h1>
+      </section>
+      <section class="display">
+        Player <span class="display-player playerX"><i class="fa-regular fa-face-smile" style="color: #fcfcfc;"></i></span>'s turn
+      </section>
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+      <section class="display announcer hide">result </section>
+      <section class="controls">
+        <button id="reset">Reset</button>
+        <button id="startNewRound">Start New Game</button>
+      </section>
+      <table style="border:1px;color:rgb(255, 255, 255)" class="scorecard">
+       <tr>
+        <th>playerX</th>
+        <th>playerO</th>
+        <th>Tie</th>
+       </tr>
+       <tr>
+        <td><div class="xscore">0</div>
+          <div class="xscoreimages"></div>
+        </td>
+        <td><div class="oscore">0</div>
+          <div class="oscoreimages"></div>
+        </td>
+        <td><div class="tiescore">0</div>
+          <div class="tiescoreimages"></div>
+        </td>
+       </tr>
+
+      </table>
+       
+
+
+
+
+    </main>
+    <script src="tic tac toe.js"></script>
+  </body>
+</html>
